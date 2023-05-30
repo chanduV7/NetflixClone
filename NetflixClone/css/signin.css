@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ceb3b1eb-2673-4dd9-a6e3-0cd7a5e130ee/7540883d-de7a-4a69-8cc6-c3885d3a2b0b/IN-en-20230522-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: blur(50%);  
+}
+
+
+
+header img{
+width: 15%;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0, 0.75);
+    border-radius: 4px;
+    padding: 4rem 2rem 4rem 2rem;
+    z-index: 10;
+}
+.signInForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+}
+
+.signInForm h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    padding-left: 7rem;
+}
+
+.formDiv input{
+    width: 21rem;
+    height: 3rem;
+    background-color: #333;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.formDiv button{
+    width: 21rem;
+    height: 3rem;
+    background-color: red;
+    font-size: 1.2rem;
+   margin-top: 1rem;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signUpBtn{
+    border: 0;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signInForm p{
+    padding: 2rem 0 0 4rem;
+    color: #666262;
+}
